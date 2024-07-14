@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9a825; /* خلفية زرقاء */
+    color: #fbc02d; /* نص أبيض */
+    margin: 0;
+    padding: 2px;
+}
+h1, h3, h5, h6 {
+    font-family: Arial;
+     /* خلفية زرقاء */
+    color: #fafafa; /* نص أبيض */
+border: 3px;  
+font-size: 25px;
+font-weight:bold;
+text-align:center;
+   margin: 0;
+    padding: 20px;
+}
+  h4{
+    font-family: Arial;
+     /* خلفية زرقاء */
+    color: #ff6f00; /* نص أبيض */
+border: 6px;  
+font-size: 20px;
+text-align:right;
+   margin: 0;
+    padding: 10px;
+}
+
+h2{
+    font-family: Arial;
+     /* خلفية زرقاء */
+    background-color: white; /* نص أبيض */
+border-style:dashed;  
+font-size: 25px;
+text-align:center;
+color:#1a237e;
+   margin: 0;
+    padding: 10px;
+}
+p{
+    font-family: Arial;
+    background-color: #4d88ff; /* خلفية زرقاء */
+    color: #fafafa; /* نص أبيض */
+border-style:dotted;
+  border-color:red;
+font-size: 25px;
+text-align:center;
+font-weight: bold;
+   margin: 0;
+    padding: 2px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+    border: 3px bold #cccccc;
+    background-color: #e6f2ff; /* خلفية زرقاء فاتحة للجداول */
+    color: #1a237e; /* نص أسود داخل الجداول */
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 3px bold #cccccc;
+}
+
+table th {
+    background-color: #b3d1ff;
+    color: #000000;
+}
+
+table tr:nth-child(even) {
+    background-color: #cce6ff;
+}
+
+table tr:hover {
+    background-color: #b3d1ff;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+ul li, ol li {
+    margin: 10px 0;
+    line-height: 1.5;
+	font-size: 20px;
+	font-weight: bold;
+    color: #1a237e; /* نص أبيض */
+}
+i
+input[type="radio"],input[type="checkbox"] {
+	font-weight:bold;
+  color: white;
+  text-color:blue;
+}
+
+
+input[type="text"], input[type="radio"]select, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 4px bold  ;
+    border-radius:4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size:23px;
+    color:#1a237e; /* نص أسود */
+}
+
+/
+
+label:hover {
+  color: #007BFF; /* تغيير لون النص عند التمرير فوقه */
+}
+
+
+label:hover {
+  color: #007BFF;
+}
+
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+	text-color:blue;
+	font-color:red;
+}
+
+input[type="submit"], button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #004494;
+}
+
+
+form {
+            border: 2px solid #000; /* لون الحدود */
+            padding: 20px; /* المسافة الداخلية بين الحدود والمحتوى */
+            border-radius: 10px; /* زوايا الحدود المستديرة */
+            background-color: #fff176; /* لون خلفية النموذج */
+			color:#e65100;
+			font-weight:bold;
+			font-size:20px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="password"],
+        form textarea {
+            width: 100%; /* عرض كامل */
+            padding: 10px; /* مسافة داخلية */
+            margin-bottom: 10px; /* مسافة سفلية بين العناصر */
+            border: 1px solid #ccc; /* حدود العناصر الداخلية */
+            border-radius: 5px; /* زوايا مستديرة للعناصر */
+        }
+        form input[type="submit"],
+        form input[type="reset"] {
+            width: 48%; /* عرض شبه كامل */
+            padding: 10px; /* مسافة داخلية */
+            margin-top: 10px; /* مسافة علوية */
+            border: none; /* إزالة الحدود الافتراضية */
+            border-radius: 5px; /* زوايا مستديرة للعناصر */
+            background-color: #4CAF50; /* لون خلفية زر الإرسال */
+            color: white; /* لون النص */
+            cursor: pointer; /* تغيير مؤشر الفأرة */
+        }
+        form input[type="reset"] {
+            background-color: #f44336; /* لون خلفية زر إعادة التعيين */
+        }
+
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ffffff; /* نص أبيض */
+}
+
+fieldset {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    color: #000000; /* نص أسود */
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #0056b3;
+}
